@@ -1,0 +1,98 @@
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-shadow: 2px 2px 5px red;
+    
+    font: outline;
+    width: auto;
+    height: 150px;
+    text-align: center; 
+    top: 200px;
+    background-size: 800px;
+}
+
+.bienvenida{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 15px;
+}
+
+.artifacts{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    background-color: green;
+    text-align: center;
+    border: 3px dashed #888;
+    margin: 10px;
+    padding: 15px;
+    /* Elimino height: 1000px; ya que el Grid lo manejará */
+}
+
+/* IMPLEMENTACIÓN CLAVE DEL ROL N° 2 (MAQUETACIÓN) */
+.tarjetas{
+    display: grid;
+    /* Crea 4 columnas de igual tamaño (1fr) */
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 30px; /* Espacio entre las tarjetas */
+    padding: 20px;
+}
+
+/* ESTILO PARA CADA TARJETA */
+.tarjetas article {
+    border: 1px solid #000;
+    padding: 20px;
+    box-shadow: 3px 3px 5px #00000050;
+    text-align: center;
+}
+
+/* ESTILO PARA EL DETALLE VISUAL (IMAGEN) */
+.tarjetas img {
+    width: 80px; /* Tamaño del icono */
+    height: auto;
+    margin: 10px auto;
+    display: block;
+}
+
+/* TUS ESTILOS INDIVIDUALES PARA CADA TARJETA */
+.artifacts1{
+    background-color: red;
+    /* Si usas la etiqueta <img> en el HTML, esta línea es opcional o puede dar error */
+    background-image: url(img/espada.png);    
+}
+
+.artifacts2{
+    background-color: blue;
+}
+
+
+.artifacts3{
+    background-color: white;
+}
+
+.artifacts4{
+    background-color: yellow;
+}
+
+.artifacts5{
+    background-color: aquamarine;
+}
+
+/* Estilos para las tarjetas nuevas */
+.artifacts6{
+    background-color: #A9A9A9;
+}
+.artifacts7{
+    background-color: #8B4513;
+}
+.artifacts8{
+    background-color: #4682B4;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
