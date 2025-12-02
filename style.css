@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-    background: url('/carpeta_imagenes/Background.jpg');
+    background: url('Background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -40,20 +40,20 @@ body {
     top: 44%; 
     left: 27%; 
     transform: translate(-50%, -50%); 
-    background-image: url(/carpeta_imagenes/fondo-imagenes.jpeg);
+    background-image: url('fondo-imagenes.jpeg');
     }
 #persona2 {
     top: 37%; 
     left: 18%; 
     transform: translate(-50%, -50%);
-    background-image: url(/carpeta_imagenes/fondo-imagenes.jpeg); }
+    background-image: url('fondo-imagenes.jpeg'); }
 #persona3 { 
     top: 25%; 
     left: 86%; 
     transform: translate(-50%, -50%);
-    background-image: url(/carpeta_imagenes/fondo-imagenes.jpeg); }
+    background-image: url('fondo-imagenes.jpeg'); }
 #persona4 { 
     top: 18%; 
     left: 49%; 
     transform: translate(-50%, -50%);
-    background-image: url(/carpeta_imagenes/fondo-imagenes.jpeg); }
+    background-image: url('fondo-imagenes.jpeg'); }
